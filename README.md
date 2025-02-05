@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/matty/minecraft-server-website">
-    <img src="assets/img/logo.png" alt="Logo" width="120" height="120">
+    <img src="assets/img/logo.png" alt="Logo" width="350" height="auto">
   </a>
 
   <h3 align="center">Minecraft Server Website Template</h3>
