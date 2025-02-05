@@ -13,7 +13,7 @@
   <p align="center">
     Ein modernes, anpassbares Template für Minecraft-Server.
     <br />
-    <a href="https://demo01.pengu-network.de/">Live Demo</a>
+    <a href="https://demo02.pengu-network.de/">Live Demo</a>
     ●
     <a href="https://discord.gg/HcqKn7CVN5">Fehler melden</a>
     ●
@@ -45,7 +45,7 @@
 
 ## Über das Projekt
 
-[![Produkt-Screenshot](https://cdn.velurapictures.de/uploads/minecraft_collage.jpeg)](https://demo01.pengu-network.de)
+[![Produkt-Screenshot](https://cdn.velurapictures.de/uploads/Minecraft-Server-Website-Template.png)](https://demo01.pengu-network.de)
 
 Dieses Template wurde entwickelt, um Minecraft-Server professionell und einfach zu präsentieren. Es bietet zahlreiche Funktionen und ist vollständig anpassbar.
 
@@ -92,9 +92,9 @@ Um das Template lokal einzurichten, folge diesen Schritten:
 
 Bearbeite die folgenden Dateien, um dein Template anzupassen:
 
-1. **Server-IP konfigurieren**: Ändere die Server-IP in `script.js` und `index.html`.
+1. **Server-IP konfigurieren**: Ändere die Server-IP in `script.js`.
 2. **Farben anpassen**: Passe die CSS-Variablen in `style.css` an.
-3. **Team-Mitglieder hinzufügen**: Füge UUIDs für die Avatare in `index.html` hinzu.
+3. **Team-Mitglieder** hinzufügen in der `script.js`.
 
 Weitere Anpassungen sind in der [Dokumentation](https://github.com/matty/minecraft-server-website) beschrieben.
 
@@ -104,8 +104,6 @@ Weitere Anpassungen sind in der [Dokumentation](https://github.com/matty/minecra
 
 - [x] Live-Serverstatus anzeigen
 - [ ] Mobile Optimierung hinzufügen
-- [ ] Mehrsprachige Unterstützung (Deutsch, Englisch)
-- [ ] Dark Mode Integration
 - [ ] **Whitelist Webseite** – Ein System zur Verwaltung von Bewerbungen für den Server
 - [ ] **Whitelist Plugin** – Ein Minecraft-Plugin zur Verwaltung der Whitelist über die Webseite
 
@@ -123,6 +121,6 @@ Jegliche Verbreitung oder der Verkauf – auch in abgewandelter Form – sind nu
 
 **Matty (TheVelu)**  
 [Discord](https://discord.gg/HcqKn7CVN5)  
-[GitHub](https://github.com/matty)  
+[GitHub](https://github.com/matthewrabiega)  
 
-Projektlink: [Minecraft Server Website Template](https://github.com/matty/minecraft-server-website)
+Projektlink: [Minecraft Server Website Template](https://github.com/matthewrabiega/minecraft-server-website)
