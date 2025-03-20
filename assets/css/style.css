@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Minecraft';
-    src: url('/assets/font/Minecraft.ttf') format('truetype');
+    src: url('../font/Minecraft.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }

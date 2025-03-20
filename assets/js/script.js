@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         teamMembers: [
             { name: "TheVelu", role: "Administrator", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 2", role: "Developer", head: "https://mc-heads.net/avatar/Steve/64" },
-            { name: "Spieler 3", role: "Supporter", head: "https://mc-heads.net/avatar/Steve/64" },
-            { name: "Spieler 4", role: "Builder", head: "https://mc-heads.net/avatar/Steve/64" },
-            { name: "Spieler 5", role: "Content", head: "https://mc-heads.net/avatar/Steve/64" },
+            { name: "Spieler 2", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Spieler 3", role: "Supporter", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Spieler 4", role: "Builder", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Spieler 5", role: "Content", head: "https://mc-heads.net/avatar/TheVelu/64" },
             // { name: "USERNAME", role: "RANG", head: "https://mc-heads.net/avatar/USERNAME/64" }
         ],
         messages: [ // hier kannst du ganz einfach die Color Codes von Minecraft mit [&] benutzen.
