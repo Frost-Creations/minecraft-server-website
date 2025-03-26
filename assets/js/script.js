@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function loadServerStatus() {
-        const apiURL = `https://api.mcsrvstat.us/2/${config.serverIP}`;
+        const apiURL = `https://api.mcsrvstat.us/bedrock/3/ger-05.malthe.cc:19132}`;
 
         fetch(apiURL)
             .then(response => response.json())
