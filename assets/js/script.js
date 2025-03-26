@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         serverIP: "ger-05.malthe.cc:19132", // Trage hier deine Server Adresse ein für einen live Status
         offlineIcon: "./assets/img/offline.png",
         ranks: {
-            Administrator: "#ff4500",
-            Builder: "#00ced1",
+            Founder: "#ff4500",
+            Head Developer: "#00ced1",
             Developer: "#ffd700",
             Supporter: "#32cd32",
             Content: "#c729e3"
