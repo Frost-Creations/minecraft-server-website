@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const config = {
-        serverIP: "play.deinserver.de", // Trage hier deine Server Adresse ein für einen live Status
+        serverIP: "ger-05.malthe.cc:19132", // Trage hier deine Server Adresse ein für einen live Status
         offlineIcon: "./assets/img/offline.png",
         ranks: {
             Administrator: "#ff4500",
