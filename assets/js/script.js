@@ -8,13 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
             Head Developer: "#00ced1",
             Developer: "#ffd700",
             Supporter: "#32cd32",
-            Content: "#c729e3"
+            Content: "#c729e3",
             // NeuerRang: "#RangFarbe"
         },
         teamMembers: [
             { name: "Biswajit", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
             { name: "DEVILxD", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Biswajit", role: "Head Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
             { name: "AEDXDEV", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
             // { name: "USERNAME", role: "RANG", head: "https://mc-heads.net/avatar/USERNAME/64" }
         ],
