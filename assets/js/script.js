@@ -12,17 +12,18 @@ document.addEventListener("DOMContentLoaded", () => {
             // NeuerRang: "#RangFarbe"
         },
         teamMembers: [
-            { name: "TheVelu", role: "Administrator", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 2", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 3", role: "Supporter", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 4", role: "Builder", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 5", role: "Content", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Biswajit", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "DEVILxD", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Biswajit", role: "Head Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "AEDXDEV", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Thor", role: "Admin", head: "https://mc-heads.net/avatar/TheVelu/64" },
             // { name: "USERNAME", role: "RANG", head: "https://mc-heads.net/avatar/USERNAME/64" }
         ],
         messages: [ // hier kannst du ganz einfach die Color Codes von Minecraft mit [&] benutzen.
-            "&aWillkommen auf der Projekt-Seite!",
-            "&6Melde dich an und werde Teil unseres Teams!",
-            "&bBesuche unseren Discord-Server für mehr Infos!",
+            "&aWelcome to the FrostNetwork!",  
+            "&6Play Amd Enjoy With Us!",  
+            "&bVisit our Discord server for more info!"  
+            
             // "FÜGE HIER EINE WEITERE NACHRICHT HINZU"
         ],
         typeSpeed: 80, // Geschwindigkeit der Typ-Animation (ms)
