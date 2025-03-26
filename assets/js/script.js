@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
             { name: "DEVILxD", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
             { name: "Biswajit", role: "Head Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
             { name: "AEDXDEV", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Thor", role: "Admin", head: "https://mc-heads.net/avatar/TheVelu/64" },
             // { name: "USERNAME", role: "RANG", head: "https://mc-heads.net/avatar/USERNAME/64" }
         ],
         messages: [ // hier kannst du ganz einfach die Color Codes von Minecraft mit [&] benutzen.
