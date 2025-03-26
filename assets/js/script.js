@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function loadServerStatus() {
-        const apiURL = `https://api.mcsrvstat.us/bedrock/3/ger-05.malthe.cc:19132}`;
+        const apiURL = `https://api.mcsrvstat.us/bedrock/3/ger-05.malthe.cc:19132`;
 
         fetch(apiURL)
             .then(response => response.json())
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (data.online) {
                     serverIcon.src = data.icon || config.offlineIcon;
                     serverName.textContent = data.motd?.clean[0] || config.serverIP;
-                    serverPlayers.textContent = `Spieler: ${data.players.online} / ${data.players.max}`;
+                    serverPlayers.textContent = `Player: ${data.players.online} / ${data.players.max}`;
                     serverBadge.textContent = "ONLINE";
                     serverBadge.classList.add("online");
                     serverBadge.classList.remove("offline");
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function displayServerOffline() {
         serverIcon.src = config.offlineIcon;
         serverName.textContent = config.serverIP;
-        serverPlayers.textContent = "Spieler: 0 / 0";
+        serverPlayers.textContent = "Player: 0 / 0";
         serverBadge.textContent = "OFFLINE";
         serverBadge.classList.add("offline");
         serverBadge.classList.remove("online");
