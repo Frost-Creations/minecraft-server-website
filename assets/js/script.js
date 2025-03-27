@@ -1,27 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const config = {
-        serverIP: "ger-05.malthe.cc:19132", // Trage hier deine Server Adresse ein für einen live Status
+        serverIP: "play.deinserver.de", // Trage hier deine Server Adresse ein für einen live Status
         offlineIcon: "./assets/img/offline.png",
         ranks: {
-            Founder: "#ff4500",
-            Head Developer: "#00ced1",
+            Administrator: "#ff4500",
+            Builder: "#00ced1",
             Developer: "#ffd700",
             Supporter: "#32cd32",
-            Content: "#c729e3",
+            Content: "#c729e3"
             // NeuerRang: "#RangFarbe"
         },
         teamMembers: [
-            { name: "Biswajit", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "DEVILxD", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "AEDXDEV", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "TheVelu", role: "Administrator", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Spieler 2", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Spieler 3", role: "Supporter", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Spieler 4", role: "Builder", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Spieler 5", role: "Content", head: "https://mc-heads.net/avatar/TheVelu/64" },
             // { name: "USERNAME", role: "RANG", head: "https://mc-heads.net/avatar/USERNAME/64" }
         ],
         messages: [ // hier kannst du ganz einfach die Color Codes von Minecraft mit [&] benutzen.
-            "&aWelcome to the FrostNetwork!",  
-            "&6Play Amd Enjoy With Us!",  
-            "&bVisit our Discord server for more info!"  
-            
+            "&aWillkommen auf der Projekt-Seite!",
+            "&6Melde dich an und werde Teil unseres Teams!",
+            "&bBesuche unseren Discord-Server für mehr Infos!",
             // "FÜGE HIER EINE WEITERE NACHRICHT HINZU"
         ],
         typeSpeed: 80, // Geschwindigkeit der Typ-Animation (ms)
@@ -126,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function loadServerStatus() {
-        const apiURL = `https://api.mcsrvstat.us/bedrock/3/ger-05.malthe.cc:19132`;
+        const apiURL = `https://api.mcsrvstat.us/2/${config.serverIP}`;
 
         fetch(apiURL)
             .then(response => response.json())
@@ -134,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (data.online) {
                     serverIcon.src = data.icon || config.offlineIcon;
                     serverName.textContent = data.motd?.clean[0] || config.serverIP;
-                    serverPlayers.textContent = `Player: ${data.players.online} / ${data.players.max}`;
+                    serverPlayers.textContent = `Spieler: ${data.players.online} / ${data.players.max}`;
                     serverBadge.textContent = "ONLINE";
                     serverBadge.classList.add("online");
                     serverBadge.classList.remove("offline");
@@ -148,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function displayServerOffline() {
         serverIcon.src = config.offlineIcon;
         serverName.textContent = config.serverIP;
-        serverPlayers.textContent = "Player: 0 / 0";
+        serverPlayers.textContent = "Spieler: 0 / 0";
         serverBadge.textContent = "OFFLINE";
         serverBadge.classList.add("offline");
         serverBadge.classList.remove("online");
