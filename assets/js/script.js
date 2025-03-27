@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (data.online) {
                     serverIcon.src = data.icon || config.offlineIcon;
                     serverName.textContent = data.motd?.clean[0] || config.serverIP;
-                    serverPlayers.textContent = `Spieler: ${data.players.online} / ${data.players.max}`;
+                    serverPlayers.textContent = `Player: ${data.players.online} / ${data.players.max}`;
                     serverBadge.textContent = "ONLINE";
                     serverBadge.classList.add("online");
                     serverBadge.classList.remove("offline");
