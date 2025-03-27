@@ -1,28 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const config = {
-        serverIP: "play.deinserver.de", // Trage hier deine Server Adresse ein für einen live Status
+        serverIP: "ger-05.malthe.cc:19132", // Trage hier deine Server Adresse ein für einen live Status
         offlineIcon: "./assets/img/offline.png",
         ranks: {
-            Administrator: "#ff4500",
-            Builder: "#00ced1",
-            Developer: "#ffd700",
-            Supporter: "#32cd32",
-            Content: "#c729e3"
+            Founder: "#ff4500",
+            Developer: "#ffd700"
             // NeuerRang: "#RangFarbe"
         },
         teamMembers: [
-            { name: "TheVelu", role: "Administrator", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 2", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 3", role: "Supporter", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 4", role: "Builder", head: "https://mc-heads.net/avatar/TheVelu/64" },
-            { name: "Spieler 5", role: "Content", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Biswajit", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "DEVILxD", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "AEDXDEV", role: "Devloper", head: "https://mc-heads.net/avatar/TheVelu/64" },
             // { name: "USERNAME", role: "RANG", head: "https://mc-heads.net/avatar/USERNAME/64" }
         ],
         messages: [ // hier kannst du ganz einfach die Color Codes von Minecraft mit [&] benutzen.
-            "&aWillkommen auf der Projekt-Seite!",
-            "&6Melde dich an und werde Teil unseres Teams!",
-            "&bBesuche unseren Discord-Server für mehr Infos!",
+            "&aWelcome to the FrostNetwork!",
+            "&6Play Amd Enjoy With Us!",
+            "&bVisit our Discord server for more info!",
             // "FÜGE HIER EINE WEITERE NACHRICHT HINZU"
         ],
         typeSpeed: 80, // Geschwindigkeit der Typ-Animation (ms)
@@ -127,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function loadServerStatus() {
-        const apiURL = `https://api.mcsrvstat.us/2/${config.serverIP}`;
+        const apiURL = `https://api.mcsrvstat.us/bedrock/3/ger-05.malthe.cc:19132`;
 
         fetch(apiURL)
             .then(response => response.json())
