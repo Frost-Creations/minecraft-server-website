@@ -1,4 +1,4 @@
-whurl = "https://discord.com/api/webhooks/1001619976647622807/3gTsFFnsOL0rQkPvRTEOhZ55vrDci9jJuH6ib9HW9IZW1yROxE9YegLhwL0Zlrzg2DtM"
+whurl = "https://discord.com/api/webhooks/1354769270143455272/88vDKNhbccAOv-MCyiLD8QROcJAnzsUWRvOgrK-gPTgjjK_aUuN9Dh6rF6hdMcb2DP3y"
 
 var name= "";
 var discord_tag= "";
