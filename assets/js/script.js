@@ -5,13 +5,15 @@ document.addEventListener("DOMContentLoaded", () => {
         offlineIcon: "./assets/img/offline.png",
         ranks: {
             Founder: "#ff4500",
-            Developer: "#ffd700"
+            Developer: "#ffd700",
+            Admin: "#ff6347"
             // NeuerRang: "#RangFarbe"
         },
         teamMembers: [
             { name: "Biswajit", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
             { name: "DEVILxD", role: "Founder", head: "https://mc-heads.net/avatar/TheVelu/64" },
             { name: "AEDXDEV", role: "Developer", head: "https://mc-heads.net/avatar/TheVelu/64" },
+            { name: "Thor", role: "Admin", head: "https://mc-heads.net/avatar/TheVelu/64" },
             // { name: "USERNAME", role: "RANG", head: "https://mc-heads.net/avatar/USERNAME/64" }
         ],
         messages: [ // hier kannst du ganz einfach die Color Codes von Minecraft mit [&] benutzen.
